@@ -20,3 +20,14 @@ C:\Users\jhonn\Desktop\Proyecto-Final\GestionHotelero\GestionHotelero.Dto\obj\De
 C:\Users\jhonn\Desktop\Proyecto-Final\GestionHotelero\GestionHotelero.Dto\obj\Debug\net7.0\refint\GestionHotelero.Dto.dll
 C:\Users\jhonn\Desktop\Proyecto-Final\GestionHotelero\GestionHotelero.Dto\obj\Debug\net7.0\GestionHotelero.Dto.pdb
 C:\Users\jhonn\Desktop\Proyecto-Final\GestionHotelero\GestionHotelero.Dto\obj\Debug\net7.0\ref\GestionHotelero.Dto.dll
+C:\GitProjects\ExamenesGalaxy\Proyecto-Final\GestionHotelero\GestionHotelero.Dto\bin\Debug\net7.0\GestionHotelero.Dto.deps.json
+C:\GitProjects\ExamenesGalaxy\Proyecto-Final\GestionHotelero\GestionHotelero.Dto\bin\Debug\net7.0\GestionHotelero.Dto.dll
+C:\GitProjects\ExamenesGalaxy\Proyecto-Final\GestionHotelero\GestionHotelero.Dto\bin\Debug\net7.0\GestionHotelero.Dto.pdb
+C:\GitProjects\ExamenesGalaxy\Proyecto-Final\GestionHotelero\GestionHotelero.Dto\obj\Debug\net7.0\GestionHotelero.Dto.GeneratedMSBuildEditorConfig.editorconfig
+C:\GitProjects\ExamenesGalaxy\Proyecto-Final\GestionHotelero\GestionHotelero.Dto\obj\Debug\net7.0\GestionHotelero.Dto.AssemblyInfoInputs.cache
+C:\GitProjects\ExamenesGalaxy\Proyecto-Final\GestionHotelero\GestionHotelero.Dto\obj\Debug\net7.0\GestionHotelero.Dto.AssemblyInfo.cs
+C:\GitProjects\ExamenesGalaxy\Proyecto-Final\GestionHotelero\GestionHotelero.Dto\obj\Debug\net7.0\GestionHotelero.Dto.csproj.CoreCompileInputs.cache
+C:\GitProjects\ExamenesGalaxy\Proyecto-Final\GestionHotelero\GestionHotelero.Dto\obj\Debug\net7.0\GestionHotelero.Dto.dll
+C:\GitProjects\ExamenesGalaxy\Proyecto-Final\GestionHotelero\GestionHotelero.Dto\obj\Debug\net7.0\refint\GestionHotelero.Dto.dll
+C:\GitProjects\ExamenesGalaxy\Proyecto-Final\GestionHotelero\GestionHotelero.Dto\obj\Debug\net7.0\GestionHotelero.Dto.pdb
+C:\GitProjects\ExamenesGalaxy\Proyecto-Final\GestionHotelero\GestionHotelero.Dto\obj\Debug\net7.0\ref\GestionHotelero.Dto.dll

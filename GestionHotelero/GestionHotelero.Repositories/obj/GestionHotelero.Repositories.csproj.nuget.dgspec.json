@@ -1,23 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jhonn\\Desktop\\Proyecto-Final\\GestionHotelero\\GestionHotelero.Repositories\\GestionHotelero.Repositories.csproj": {}
+    "C:\\GitProjects\\ExamenesGalaxy\\Proyecto-Final\\GestionHotelero\\GestionHotelero.Repositories\\GestionHotelero.Repositories.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jhonn\\Desktop\\Proyecto-Final\\GestionHotelero\\GestionHotelero.DataAccess\\GestionHotelero.DataAccess.csproj": {
+    "C:\\GitProjects\\ExamenesGalaxy\\Proyecto-Final\\GestionHotelero\\GestionHotelero.DataAccess\\GestionHotelero.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jhonn\\Desktop\\Proyecto-Final\\GestionHotelero\\GestionHotelero.DataAccess\\GestionHotelero.DataAccess.csproj",
+        "projectUniqueName": "C:\\GitProjects\\ExamenesGalaxy\\Proyecto-Final\\GestionHotelero\\GestionHotelero.DataAccess\\GestionHotelero.DataAccess.csproj",
         "projectName": "GestionHotelero.DataAccess",
-        "projectPath": "C:\\Users\\jhonn\\Desktop\\Proyecto-Final\\GestionHotelero\\GestionHotelero.DataAccess\\GestionHotelero.DataAccess.csproj",
-        "packagesPath": "C:\\Users\\jhonn\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jhonn\\Desktop\\Proyecto-Final\\GestionHotelero\\GestionHotelero.DataAccess\\obj\\",
+        "projectPath": "C:\\GitProjects\\ExamenesGalaxy\\Proyecto-Final\\GestionHotelero\\GestionHotelero.DataAccess\\GestionHotelero.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\erick\\.nuget\\packages\\",
+        "outputPath": "C:\\GitProjects\\ExamenesGalaxy\\Proyecto-Final\\GestionHotelero\\GestionHotelero.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages",
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\jhonn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\erick\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +28,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 22.1\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
@@ -33,8 +36,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\jhonn\\Desktop\\Proyecto-Final\\GestionHotelero\\GestionHotelero.Entities\\GestionHotelero.Entities.csproj": {
-                "projectPath": "C:\\Users\\jhonn\\Desktop\\Proyecto-Final\\GestionHotelero\\GestionHotelero.Entities\\GestionHotelero.Entities.csproj"
+              "C:\\GitProjects\\ExamenesGalaxy\\Proyecto-Final\\GestionHotelero\\GestionHotelero.Entities\\GestionHotelero.Entities.csproj": {
+                "projectPath": "C:\\GitProjects\\ExamenesGalaxy\\Proyecto-Final\\GestionHotelero\\GestionHotelero.Entities\\GestionHotelero.Entities.csproj"
               }
             }
           }
@@ -88,24 +91,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\jhonn\\Desktop\\Proyecto-Final\\GestionHotelero\\GestionHotelero.Dto\\GestionHotelero.Dto.csproj": {
+    "C:\\GitProjects\\ExamenesGalaxy\\Proyecto-Final\\GestionHotelero\\GestionHotelero.Dto\\GestionHotelero.Dto.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jhonn\\Desktop\\Proyecto-Final\\GestionHotelero\\GestionHotelero.Dto\\GestionHotelero.Dto.csproj",
+        "projectUniqueName": "C:\\GitProjects\\ExamenesGalaxy\\Proyecto-Final\\GestionHotelero\\GestionHotelero.Dto\\GestionHotelero.Dto.csproj",
         "projectName": "GestionHotelero.Dto",
-        "projectPath": "C:\\Users\\jhonn\\Desktop\\Proyecto-Final\\GestionHotelero\\GestionHotelero.Dto\\GestionHotelero.Dto.csproj",
-        "packagesPath": "C:\\Users\\jhonn\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jhonn\\Desktop\\Proyecto-Final\\GestionHotelero\\GestionHotelero.Dto\\obj\\",
+        "projectPath": "C:\\GitProjects\\ExamenesGalaxy\\Proyecto-Final\\GestionHotelero\\GestionHotelero.Dto\\GestionHotelero.Dto.csproj",
+        "packagesPath": "C:\\Users\\erick\\.nuget\\packages\\",
+        "outputPath": "C:\\GitProjects\\ExamenesGalaxy\\Proyecto-Final\\GestionHotelero\\GestionHotelero.Dto\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages",
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\jhonn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\erick\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -114,6 +119,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 22.1\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
@@ -148,24 +154,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\jhonn\\Desktop\\Proyecto-Final\\GestionHotelero\\GestionHotelero.Entities\\GestionHotelero.Entities.csproj": {
+    "C:\\GitProjects\\ExamenesGalaxy\\Proyecto-Final\\GestionHotelero\\GestionHotelero.Entities\\GestionHotelero.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jhonn\\Desktop\\Proyecto-Final\\GestionHotelero\\GestionHotelero.Entities\\GestionHotelero.Entities.csproj",
+        "projectUniqueName": "C:\\GitProjects\\ExamenesGalaxy\\Proyecto-Final\\GestionHotelero\\GestionHotelero.Entities\\GestionHotelero.Entities.csproj",
         "projectName": "GestionHotelero.Entities",
-        "projectPath": "C:\\Users\\jhonn\\Desktop\\Proyecto-Final\\GestionHotelero\\GestionHotelero.Entities\\GestionHotelero.Entities.csproj",
-        "packagesPath": "C:\\Users\\jhonn\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jhonn\\Desktop\\Proyecto-Final\\GestionHotelero\\GestionHotelero.Entities\\obj\\",
+        "projectPath": "C:\\GitProjects\\ExamenesGalaxy\\Proyecto-Final\\GestionHotelero\\GestionHotelero.Entities\\GestionHotelero.Entities.csproj",
+        "packagesPath": "C:\\Users\\erick\\.nuget\\packages\\",
+        "outputPath": "C:\\GitProjects\\ExamenesGalaxy\\Proyecto-Final\\GestionHotelero\\GestionHotelero.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages",
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\jhonn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\erick\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -174,6 +182,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 22.1\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
@@ -214,24 +223,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\jhonn\\Desktop\\Proyecto-Final\\GestionHotelero\\GestionHotelero.Repositories\\GestionHotelero.Repositories.csproj": {
+    "C:\\GitProjects\\ExamenesGalaxy\\Proyecto-Final\\GestionHotelero\\GestionHotelero.Repositories\\GestionHotelero.Repositories.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jhonn\\Desktop\\Proyecto-Final\\GestionHotelero\\GestionHotelero.Repositories\\GestionHotelero.Repositories.csproj",
+        "projectUniqueName": "C:\\GitProjects\\ExamenesGalaxy\\Proyecto-Final\\GestionHotelero\\GestionHotelero.Repositories\\GestionHotelero.Repositories.csproj",
         "projectName": "GestionHotelero.Repositories",
-        "projectPath": "C:\\Users\\jhonn\\Desktop\\Proyecto-Final\\GestionHotelero\\GestionHotelero.Repositories\\GestionHotelero.Repositories.csproj",
-        "packagesPath": "C:\\Users\\jhonn\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jhonn\\Desktop\\Proyecto-Final\\GestionHotelero\\GestionHotelero.Repositories\\obj\\",
+        "projectPath": "C:\\GitProjects\\ExamenesGalaxy\\Proyecto-Final\\GestionHotelero\\GestionHotelero.Repositories\\GestionHotelero.Repositories.csproj",
+        "packagesPath": "C:\\Users\\erick\\.nuget\\packages\\",
+        "outputPath": "C:\\GitProjects\\ExamenesGalaxy\\Proyecto-Final\\GestionHotelero\\GestionHotelero.Repositories\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages",
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\jhonn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\erick\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -240,6 +251,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 22.1\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
@@ -247,11 +259,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\jhonn\\Desktop\\Proyecto-Final\\GestionHotelero\\GestionHotelero.DataAccess\\GestionHotelero.DataAccess.csproj": {
-                "projectPath": "C:\\Users\\jhonn\\Desktop\\Proyecto-Final\\GestionHotelero\\GestionHotelero.DataAccess\\GestionHotelero.DataAccess.csproj"
+              "C:\\GitProjects\\ExamenesGalaxy\\Proyecto-Final\\GestionHotelero\\GestionHotelero.DataAccess\\GestionHotelero.DataAccess.csproj": {
+                "projectPath": "C:\\GitProjects\\ExamenesGalaxy\\Proyecto-Final\\GestionHotelero\\GestionHotelero.DataAccess\\GestionHotelero.DataAccess.csproj"
               },
-              "C:\\Users\\jhonn\\Desktop\\Proyecto-Final\\GestionHotelero\\GestionHotelero.Dto\\GestionHotelero.Dto.csproj": {
-                "projectPath": "C:\\Users\\jhonn\\Desktop\\Proyecto-Final\\GestionHotelero\\GestionHotelero.Dto\\GestionHotelero.Dto.csproj"
+              "C:\\GitProjects\\ExamenesGalaxy\\Proyecto-Final\\GestionHotelero\\GestionHotelero.Dto\\GestionHotelero.Dto.csproj": {
+                "projectPath": "C:\\GitProjects\\ExamenesGalaxy\\Proyecto-Final\\GestionHotelero\\GestionHotelero.Dto\\GestionHotelero.Dto.csproj"
               }
             }
           }
@@ -281,7 +293,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

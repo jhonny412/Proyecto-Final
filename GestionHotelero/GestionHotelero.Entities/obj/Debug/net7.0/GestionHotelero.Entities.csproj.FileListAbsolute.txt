@@ -22,3 +22,15 @@ C:\Users\jhonn\Desktop\Proyecto-Final\GestionHotelero\GestionHotelero.Entities\o
 C:\Users\jhonn\Desktop\Proyecto-Final\GestionHotelero\GestionHotelero.Entities\obj\Debug\net7.0\refint\GestionHotelero.Entities.dll
 C:\Users\jhonn\Desktop\Proyecto-Final\GestionHotelero\GestionHotelero.Entities\obj\Debug\net7.0\GestionHotelero.Entities.pdb
 C:\Users\jhonn\Desktop\Proyecto-Final\GestionHotelero\GestionHotelero.Entities\obj\Debug\net7.0\ref\GestionHotelero.Entities.dll
+C:\GitProjects\ExamenesGalaxy\Proyecto-Final\GestionHotelero\GestionHotelero.Entities\bin\Debug\net7.0\GestionHotelero.Entities.deps.json
+C:\GitProjects\ExamenesGalaxy\Proyecto-Final\GestionHotelero\GestionHotelero.Entities\bin\Debug\net7.0\GestionHotelero.Entities.dll
+C:\GitProjects\ExamenesGalaxy\Proyecto-Final\GestionHotelero\GestionHotelero.Entities\bin\Debug\net7.0\GestionHotelero.Entities.pdb
+C:\GitProjects\ExamenesGalaxy\Proyecto-Final\GestionHotelero\GestionHotelero.Entities\obj\Debug\net7.0\GestionHotelero.Entities.csproj.AssemblyReference.cache
+C:\GitProjects\ExamenesGalaxy\Proyecto-Final\GestionHotelero\GestionHotelero.Entities\obj\Debug\net7.0\GestionHotelero.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\GitProjects\ExamenesGalaxy\Proyecto-Final\GestionHotelero\GestionHotelero.Entities\obj\Debug\net7.0\GestionHotelero.Entities.AssemblyInfoInputs.cache
+C:\GitProjects\ExamenesGalaxy\Proyecto-Final\GestionHotelero\GestionHotelero.Entities\obj\Debug\net7.0\GestionHotelero.Entities.AssemblyInfo.cs
+C:\GitProjects\ExamenesGalaxy\Proyecto-Final\GestionHotelero\GestionHotelero.Entities\obj\Debug\net7.0\GestionHotelero.Entities.csproj.CoreCompileInputs.cache
+C:\GitProjects\ExamenesGalaxy\Proyecto-Final\GestionHotelero\GestionHotelero.Entities\obj\Debug\net7.0\GestionHotelero.Entities.dll
+C:\GitProjects\ExamenesGalaxy\Proyecto-Final\GestionHotelero\GestionHotelero.Entities\obj\Debug\net7.0\refint\GestionHotelero.Entities.dll
+C:\GitProjects\ExamenesGalaxy\Proyecto-Final\GestionHotelero\GestionHotelero.Entities\obj\Debug\net7.0\GestionHotelero.Entities.pdb
+C:\GitProjects\ExamenesGalaxy\Proyecto-Final\GestionHotelero\GestionHotelero.Entities\obj\Debug\net7.0\ref\GestionHotelero.Entities.dll
