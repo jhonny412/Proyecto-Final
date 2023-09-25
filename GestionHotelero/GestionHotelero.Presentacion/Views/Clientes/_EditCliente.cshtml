@@ -1,0 +1,67 @@
+﻿@using GestionHotelero.Entities;
+@model ClienteViewModel
+
+<div asp-validation-summary="All" class="text-danger"></div>
+<div class="row row-cols-md-2 row-cols-lg-1">
+    <div class="col">
+        <div class="mb-3 row">
+            <label class="col-sm-2 form-label" asp-for="Nombre"></label>
+            <div class="col-sm-6">
+                <input asp-for="Nombre" class="form-control" />
+                <span asp-validation-for="Nombre" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="mb-3 row">
+            <label class="col-sm-2 form-label" asp-for="Apellido"></label>
+            <div class="col-sm-6">
+                <input asp-for="Apellido" class="form-control" />
+                <span asp-validation-for="Apellido" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="mb-3 row">
+            <label class="col-sm-2 form-label" asp-for="Email"></label>
+            <div class="col-sm-6">
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="mb-3 row">
+            <label class="col-sm-2 form-label" asp-for="Telefono"></label>
+            <div class="col-sm-6">
+                <input asp-for="Telefono" class="form-control" />
+                <span asp-validation-for="Telefono" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="mb-3 row">
+            <label class="col-sm-2 form-label" asp-for="Direccion"></label>
+            <div class="col-sm-6">
+                <input asp-for="Direccion" class="form-control" />
+                <span asp-validation-for="Direccion" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="mb-3 row">
+            <label class="col-sm-2 form-label" asp-for="FechaNacimiento"></label>
+            <div class="col-sm-6">
+                <input asp-for="FechaNacimiento" class="form-control" />
+                <span asp-validation-for="FechaNacimiento" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="mb-3 row">
+            <label class="col-sm-2 form-label" asp-for="NroDocumento"></label>
+            <div class="col-sm-6">
+                <input asp-for="NroDocumento" class="form-control" />
+                <span asp-validation-for="NroDocumento" class="text-danger"></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-sm-2">
+    </div>
+    <div class="col-sm-8">
+        <button type="submit" class="btn btn-primary w-25"><i class="lni lni-save me-2"></i>Grabar</button>
+        <button class="btn btn-outline-secondary w-25" asp-controller="Clientes" asp-action="Index"><i class="lni lni-circle-minus me-2"></i>Cancelar</button>
+    </div>
+
+
+</div>

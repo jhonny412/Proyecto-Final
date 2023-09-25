@@ -1,0 +1,92 @@
+﻿@using GestionHotelero.Entities.Helper.Entities;
+@model ClienteView
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h1 class="row justify-content-center pb-4">Lista de Clientes</h1>
+
+<form asp-action="Index" method="get">
+    <div class="row justify-content-center mt-3 mb-4">
+        <div class="col-sm-6 col-md-8 col-xl-12">
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="Buscar..." name="nombre"
+                       value="@ViewBag.Nombre" />
+                <button class="btn btn-outline-secondary" type="submit">
+                    <i class="lni lni-search-alt" style="color:red"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+</form>
+
+<a class="btn btn-primary" asp-action="Create"><i class="lni lni-add-files me-2"></i>Nuevo Cliente</a>
+<a class="btn btn-outline-secondary" asp-action="Index"><i class="lni lni-upload me-2"></i>Cargar Clientes</a>
+
+@if (Model.Clientes.Count == 0)
+{
+    <p class="alert alert-info">No existen registros a mostrar</p>
+}
+else
+{
+    <br />
+    <br />
+    <table class="table table-striped table-hover table-bordered">
+        <thead class="bg-primary text-white">
+            <tr>
+                <th>Nombres</th>
+                <th>Apellidos</th>
+                <th>Numero documento</th>
+                <th>Email</th>
+                <th>Telefono</th>
+                <th>Direccion</th>
+                <th>Fecha Nacimiento</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Clientes)
+            {
+                <tr>
+                    <td>@item.Nombre</td>
+                    <td>@item.Apellido</td>
+                    <td>@item.NroDocumento</td>
+                    <td>@item.Email</td>
+                    <td>@item.Telefono</td>
+                    <td>@item.Direccion</td>
+                    <td>@item.FechaNacimiento.ToString("dd/MM/yyyy")</td>
+
+                    <td>
+                        @* Boton Editar *@
+                        @if (User.IsInRole(Constantes.RolAdmin))
+                        {
+                            <a class="btn btn-primary" asp-action="Edit" data-id="@item.IdCliente" asp-route-id="@item.IdCliente"><i class="lni lni-pencil-alt"></i></a>
+                        }
+                        else
+                        {
+                            <a class="btn btn-primary disabled" asp-action="Edit" data-id="@item.IdCliente" asp-route-id="@item.IdCliente"><i class="lni lni-pencil-alt"></i></a>
+                        }
+
+                        @* Boton Eliminar *@
+
+                        @if (User.IsInRole(Constantes.RolAdmin))
+                        {
+                            <a class="btn btn-danger btnEliminar" data-id="@item.IdCliente"><i class="lni lni-trash-can"></i></a>
+                        }
+                        else
+                        {
+                            <a class="btn btn-danger btnEliminar disabled" data-id="@item.IdCliente"><i class="lni lni-trash-can"></i></a>
+                        }
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@section Scripts
+    {
+    @{
+        <partial name="_DeleteConfirmation" model="@Model.Delete" />
+    }
+}

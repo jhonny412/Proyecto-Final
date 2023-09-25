@@ -1,0 +1,50 @@
+﻿@page
+@model LoginModel
+
+<h1>@ViewData["Title"]</h1>
+<div class="row justify-content-center">
+    <div class="col-md-5">
+        <div class="card shadow-lg mt-5">
+            <div class="card-header">
+                <h3 class="text-center">Acceso al Sistema</h3>
+            </div>
+            <div class="card-body">
+                <form id="account" method="post">
+                    <h2 class="text-center">Sistema de Seguridad</h2>
+                    <div asp-validation-summary="ModelOnly" class="text-danger" role="alert"></div>
+                    <div class="form-floating mb-3">
+                        <input asp-for="Input.Email" class="form-control" autocomplete="username" aria-required="true" placeholder="name@example.com" />
+                        <label asp-for="Input.Email" class="form-label">Email</label>
+                        <span asp-validation-for="Input.Email" class="text-danger"></span>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input asp-for="Input.Password" class="form-control" autocomplete="current-password" aria-required="true" placeholder="contraseña" />
+                        <label asp-for="Input.Password" class="form-label">Contraseña</label>
+                        <span asp-validation-for="Input.Password" class="text-danger"></span>
+                    </div>
+                    <div class="checkbox mb-3">
+                        <label asp-for="Input.RememberMe" class="form-label">
+                            <input class="form-check-input" asp-for="Input.RememberMe" />
+                            @Html.DisplayNameFor(m => m.Input.RememberMe)
+                        </label>
+                    </div>
+                    <div>
+                        <button id="login-submit" type="submit" class="w-100 btn btn-lg btn-primary">Ingresar</button>
+                    </div>
+                </form>
+            </div>
+            <div class="card-footer text-center py-3">
+                <div class="small">
+                    <a class="nav-link" asp-page="./ForgotPassword" asp-route-retunUrl="@Model.ReturnUrl">Olvidaste contraseña?</a>
+                </div>
+                <div class="small">
+                    <a class="nav-link" asp-page="./Register" asp-route-retunUrl="@Model.ReturnUrl">Registrate</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

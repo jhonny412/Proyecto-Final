@@ -1,0 +1,17 @@
+﻿@using GestionHotelero.Entities;
+@model ClienteViewModel
+
+@{
+    ViewData["Title"] = "Clientes";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Gestionde Clientes</h1>
+<form asp-controller="Clientes" asp-action="Create" method="post">
+    <partial name="_EditCliente" model="Model" />
+</form>
+
+@section Scripts
+    {
+    <partial name="_ValidationScriptsPartial" />
+}

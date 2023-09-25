@@ -1,0 +1,42 @@
+﻿@model DeleteConfirmationModel
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        let btnEliminarList = document.querySelectorAll('.btnEliminar');
+
+        btnEliminarList.forEach(function (btnEliminar) {
+            btnEliminar.addEventListener('click', function () {
+                let registroId = this.getAttribute('data-id');
+                confirmarEliminacion(registroId);
+            });
+        });
+
+        function confirmarEliminacion(registroId) {
+
+            Swal.fire({
+                title: 'Esta seguro de eliminar el registro?',
+                icon: 'question',
+                showCancelButton: true,
+                confirmButtonText: 'Sí',
+                cancelButtonText: 'No'
+            }).then((resultado) => {
+                if (resultado.isConfirmed) {
+                    eliminarRegistro(registroId);
+                }
+            });
+        }
+
+        function eliminarRegistro(registroId) {
+            const form = document.createElement('form');
+            form.method = 'post';
+            form.action = 'Clientes/Delete';
+            const hiddenField = document.createElement('input');
+            hiddenField.type = 'hidden';
+            hiddenField.name = 'id';
+            hiddenField.value = registroId;
+            form.appendChild(hiddenField);
+            document.body.appendChild(form);
+            form.submit();
+        }
+    });
+</script>

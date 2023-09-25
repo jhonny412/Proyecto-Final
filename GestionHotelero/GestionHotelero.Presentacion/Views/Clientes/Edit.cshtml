@@ -1,0 +1,18 @@
+﻿@using GestionHotelero.Entities;
+@model ClienteViewModel
+
+@{
+    ViewBag.Title = "Editar Cliente";
+    Layout = "_Layout";
+}
+
+
+<form asp-controller="Clientes" asp-action="Edit" method="post">
+    <input asp-for="IdCliente" hidden />
+    <partial name="_EditCliente" model="Model" />
+</form>
+
+@section Scripts
+    {
+    <partial name="_ValidationScriptsPartial" />
+}
